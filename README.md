@@ -24,5 +24,9 @@ Overall tutorial:
 <img width="595" alt="Screenshot 2024-05-09 at 10 59 17 PM" src="https://github.com/ct3008/Zolita/assets/109620408/5c66656e-90d9-46e0-a086-1d7132530bee">
 
 
-2) Attach the 8 longer male-female wires to pins {2, 15, 13, 12} to represent the 4 rows in the keypad and then pins {32, 33, 25, 26} for the 4 columns. This should be connected in order of left to right on the keypad's adapter if the keypad is placed upright (the keypad is above the adapter) and the keypad is facing upwards. Directly connect the male end of the wire to the legs on the ESP32 and then place the female part into the keypad's adapter. Flash the zolita_combined.ino code to this ESP32.
-3) On a breadboard, place a second ESP32 and connect pins {32, 26, 27, 25} which are attached to the ULN2003 stepper motor driver and connect them in the order of IN1, IN3, IN2, and IN4. Then connect PWR and GND on the driver to the 5V and GND pins on the ESP32. Place a piece of paper on the arm of the motor so that as it moves, it can mimic the dispensing of a fortune. 
+2) Attach the 8 longer male-female wires to pins {2, 15, 13, 12} to represent the 4 rows in the keypad and then pins {32, 33, 25, 26} for the 4 columns. This should be connected in order of left to right on the keypad's adapter if the keypad is placed upright (the keypad is above the adapter) and the keypad is facing upwards. Directly connect the male end of the wire to the legs on the ESP32 and then place the female part into the keypad's adapter. Flash the **zolita.ino** code to this ESP32.
+3) On a breadboard, place a second ESP32 and connect pins {32, 26, 27, 25} which are attached to the ULN2003 stepper motor driver and connect them in the order of IN1, IN3, IN2, and IN4. Then connect PWR and GND on the driver to the 5V and GND pins on the ESP32. Place a piece of paper on the arm of the motor so that as it moves, it can mimic the dispensing of a fortune. Run the motor-good.ino code to make the motor run in tandem. Ideally we would have used ESPNOW to communicate between the two ESP32s, but we didn't have time.
+
+
+
+
