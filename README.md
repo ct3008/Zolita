@@ -1,6 +1,8 @@
 # Zolita
 Witness Zolita, the trash loving fortune-teller, in all her glory. Made for Creative Embedded Systems final project using a TTGO-T1 ESP32 microprocessor, keypad and motor.
 
+Creative documentation can be found here: https://www.notion.so/module-1/Zolita-c3b49b4c2d54498c8e1f9f5bb306ea52
+
 Technical Documentation:
 
 Required Materials:
