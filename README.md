@@ -30,5 +30,14 @@ Overall tutorial:
 3) On a breadboard, place a second ESP32 and connect pins {32, 26, 27, 25} which are attached to the ULN2003 stepper motor driver and connect them in the order of IN1, IN3, IN2, and IN4. Then connect PWR and GND on the driver to the 5V and GND pins on the ESP32. Place a piece of paper on the arm of the motor so that as it moves, it can mimic the dispensing of a fortune. Run the motor-good.ino code to make the motor run in tandem. Ideally we would have used ESPNOW to communicate between the two ESP32s, but we didn't have time.
 
 
+Building Zolita's enclosure:
+
+We replicate a traditional Zoltar box design for Zolita's enclosure. Any enclosure that can hold Zolita, her hardware, and her prized trash collection is acceptable. Here are the sample proportions of Zolita's enclosure: 
+
+<img width="420" alt="Screen Shot 2024-05-11 at 1 26 12 AM" src="https://github.com/ct3008/Zolita/assets/155119122/51286354-319e-4145-a6b2-49819bcc3441">
+
+We used three 1 x 3 foot panels of 0.25 inch-thick wood. We used a laser cutter to extract each piece of Zolita's enclosure with precision. We built her box using a hammer and nails. We left the roof loose (unattached to the body of the box) so it could be easily removed for the adjustment of hardware. Then, we laser cut her name and headshot on a square panel (panel 5) and attached this to the top of her box. We cut and sewed curtains and spray-painted her box purple. We 3D printed Zolita, Zolita's trash, and Zolita's trash can, and painted Zolita to match raccoon fur patterns. Finally, we added a wooden bench which we propped Zolita and her trash on top of.
+
+<img width="795" alt="Screen Shot 2024-05-11 at 1 45 09 AM" src="https://github.com/ct3008/Zolita/assets/155119122/1fe3b227-ce23-49b0-a13c-55642961e615">
 
 
